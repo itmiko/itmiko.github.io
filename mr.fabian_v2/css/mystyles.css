@@ -1,0 +1,340 @@
+body{
+    padding: 50px 0px 0px 0px;
+    font-family: 'BebasNeueBook';
+}
+
+
+nav.navbar-inverse {
+    min-height: 85px;
+    background: #000;
+}  
+
+nav.navbar-inverse .navbar-nav> li >a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all .4s;
+}
+
+nav.navbar-inverse .navbar-nav > li > a:hover{
+    color: #f45b4f;
+    transition: all .4s;
+}
+
+ul.navbar-nav{
+    margin-top: 17px;
+}
+
+#trailer {
+    height: 490px;
+    background: url(../img/slide3.jpg) no-repeat top center scroll;
+    background-size: cover;
+}
+
+#image-logo {
+    display:none;
+}
+
+header #image-logo img{
+    position: absolute;
+    top:25%;
+    left: 50%;
+    width: 450px;
+    margin-left: -225px;
+}
+
+section{
+    padding: 70px 0;
+}
+
+section#contacts{
+    padding-bottom: 0;
+    background: #000;
+    color: #fff;
+}
+
+section#about,
+section#masters{
+    background: #f1f3f4;
+}
+
+ section#about .text-about{
+    font-family: "PTSansNarrow";
+    font-size: 19px;
+}
+
+section#services {
+    margin: 0px auto;
+    // margin-top:450px;
+    height: auto;
+    background: url(../img/foto_bg.jpg) no-repeat center scroll;
+    background-size: cover;
+}
+
+section#gallery {
+    margin: 0px auto;
+    height: auto;
+    background: url(../img/floor_bg.jpg) no-repeat center scroll;
+    background-size: cover;
+}
+
+.title-about,
+.title-service,
+.title-master,
+.title-gallery,
+.title-contacts {
+    position:relative;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+#about h2.title-about::before{
+    content:'';
+    position: absolute;
+    height: 25px;
+    margin-left: -68px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-image: url(../img/barber.tash.png);
+}
+
+#about h2.title-about::after{
+    content:'';
+    position: absolute;
+    height: 25px;
+    margin-left: 27px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-image: url(../img/barber.tash.png);
+}
+
+#services{
+    background-color: #fff;
+}
+
+#services h2.title-service::before{
+    content:'';
+    position: absolute;
+    height: 37px;
+    margin-left: -68px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-image: url(../img/blade.png);
+}
+
+#services h2.title-service::after{
+    content:'';
+    position: absolute;
+    height: 37px;
+    margin-left: 31px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-image: url(../img/blade.png);
+}
+
+.service-wrap{
+    padding: 0;
+}
+
+.service-wrap ul {
+    padding-right: 25px;
+    list-style: none;
+}
+
+.service-wrap ul li {
+    padding: 20px 0;
+    clear: both;
+}
+
+.service-wrap .service-name{
+    float: left;
+    margin: 0;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.service-price{
+    float: right;
+    position: relative;
+    top: -20px;
+    padding: 13px 1px 10px;
+    width: 57px;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+#masters h2.title-master::before{
+    content:'';
+    position: absolute;
+    height: 37px;
+    margin-left: -68px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-image: url(../img/barberpole.png);
+}
+
+#masters h2.title-master::after{
+    content:'';
+    position: absolute;
+    height: 37px;
+    margin-left: 27px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-image: url(../img/barberpole.png);
+}
+
+.master-item {
+    font-size: 19px;
+    color: #000;
+    text-align: center;
+}
+
+.master-item img {
+    max-width: 100%;
+    border-top: 8px solid #000;
+    -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+    filter: grayscale(100%);
+}
+
+#gallery{
+    padding-bottom: 80px;
+}
+
+#gallery h2.title-gallery::before{
+    content:'';
+    position: absolute;
+    height: 25px;
+    margin-left: -68px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-image: url(../img/barber.tash.png);
+}
+
+#gallery h2.title-gallery::after{
+    content:'';
+    position: absolute;
+    height: 25px;
+    margin-left: 27px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-image: url(../img/barber.tash.png);
+}
+
+#gallery .gallery-image img {
+    max-width: 100%;
+    margin-bottom: 12px;
+    -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+    filter: grayscale(100%);
+}
+
+.gallery-image {
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+#contacts{
+    background-color: #333;
+}
+
+#contacts h2.title-contacts::before{
+    content:'';
+    position: absolute;
+    height: 37px;
+    margin-left: -68px;
+    width: 50px;
+    color:#fff;
+    background-repeat: no-repeat;
+    background-image: url(../img/barberpole.png);
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+#contacts h2.title-contacts::after{
+    content:'';
+    position: absolute;
+    height: 37px;
+    margin-left: 31px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-image: url(../img/barberpole.png);
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+    filter: grayscale(100%);
+}
+
+address,
+address a,
+.time-work{
+    margin: 0px;
+    font-size: 20px;
+    color: #fff;
+}
+
+address a:hover{
+    color: #B5B5B5;
+}
+
+.social-icons .social {
+    margin-right: 7px;
+    color: #fff;
+}
+
+.social-icons .social:hover {
+    color: #B5B5B5;
+}
+
+footer{
+    padding: 40px 0px 20px 0px;
+    background-color: #000;
+}
+
+.is_overlay{
+     // display: block; width: 100%; height: 100%;
+ }
+
+#trailer {
+    overflow: hidden;
+}
+
+#trailer > video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+ @media (min-aspect-ratio: 16/9) {
+     #trailer > video { height: 300%; top: -100%; }
+ }
+ @media (max-aspect-ratio: 16/9) {
+     #trailer > video { width: 300%; left: -100%; }
+ }
+ /* Если есть поддержка object-fit (Chrome/Chrome для Android, Safari в iOS 8 и Opera), используем его: */
+ @supports (object-fit: cover) {
+     #trailer > video {
+         top: 0; left: 0;
+         width: 100%; height: 100%;
+         object-fit: cover;
+     }
+ }
