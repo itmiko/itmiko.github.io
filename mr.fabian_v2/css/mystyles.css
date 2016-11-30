@@ -28,9 +28,15 @@ ul.navbar-nav{
 
 #trailer {
     height: 490px;
+    background-size: cover;
+}
+
+.header-bgr {
+    height: 490px;
     background: url(../img/slide3.jpg) no-repeat top center scroll;
     background-size: cover;
 }
+
 
 #image-logo {
     display:none;
