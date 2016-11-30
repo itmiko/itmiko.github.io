@@ -3,7 +3,7 @@ window.onload=function(){
     var image = document.getElementById("image-logo");
     var i = 0,
     display_arr = ["block","none"],
-    time_arr = [68000,5500]; //76s - block, 5.5s - none
+    time_arr = [27000,5000]; //76s - block, 5.5s - none
     function show()
         {  i ^= 1;
            image.style.display = display_arr[i];
