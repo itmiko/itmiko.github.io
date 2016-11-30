@@ -29,7 +29,7 @@ ul.navbar-nav{
 header.jumbotron {
     margin: 0px auto;
     height: 680px;
-    background: url(../img/slide3.jpg) no-repeat top center scroll;
+    background: url(../img/slide.jpg) no-repeat top center scroll;
     background-size: cover;
 }
 
@@ -165,6 +165,8 @@ section#gallery {
     font-size: 20px;
     text-align: center;
     border-style: solid;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
 }
 
