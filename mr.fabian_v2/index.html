@@ -69,16 +69,16 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#services">Послуги</a>
+                        <a href="#services" class="toAnchor">Послуги</a>
                     </li>
                     <li>
-                        <a href="#masters">Майстри</a>
+                        <a href="#masters" class="toAnchor">Майстри</a>
                     </li>
                     <li>
-                        <a href="#gallery">Галерея</a>
+                        <a href="#gallery" class="toAnchor">Галерея</a>
                     </li>
                     <li>
-                        <a href="#contacts">Контакти</a>
+                        <a href="#contacts" class="toAnchor">Контакти</a>
                     </li>
                 </ul>
             </div>
@@ -295,6 +295,15 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFI1s26IPsuXcoadg-TiUItMzbiZ4bZAo&callback=initMap"></script>
 
     <script src="js/bootstrap.min.js"></script>
+
+    <script> 
+    $('.toAnchor').on('click', function () {
+        $('.navbar-collapse').removeClass('in');
+        $a = $($(this).attr('href'));
+        $('html,body').animate({ scrollTop: $a.offset().top - 30}, 800);
+        return false;
+    });
+</script>
 
 </body>
 </html>
