@@ -194,6 +194,13 @@ section#gallery {
     font-size: 19px;
     color: #000;
     text-align: center;
+    -webkit-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    animation-delay: 1s;
+    
 }
 
 .master-item img {

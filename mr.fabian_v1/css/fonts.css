@@ -2,9 +2,10 @@
 @font-face {
 	font-family: "BebasNeueBook";
 	src: url("../fonts/bebas/BebasNeue Book.otf");
-	src: url("../fonts/BebasNeue Book.otf?#iefix")format("embedded-opentype"),
-	url("../fonts/BebasNeue Book.woff") format("woff"),
-	url("../fonts/bebas/TTF's/BebasNeue Book.ttf") format("truetype");
+	src: url("../fonts/bebas/BebasNeue Book.otf?#iefix")format("embedded-opentype"),
+	url("../fonts/bebas/BebasNeue Book.woff") format("woff"),
+	url("../fonts/bebas/BebasNeue Book.svg") format('svg'),
+	url("../fonts/bebas/BebasNeue Book.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
@@ -13,8 +14,9 @@
 @font-face {
 	font-family: "PTSansNarrow";
 	src: url("../fonts/PTSansNarrowRegular/PTSansNarrow.otf");
-	src: url("../PTSansNarrowRegular/PTSansNarrow.otf?#iefix")format("embedded-opentype"),
-	url("../fonts/PTSansNarrowRegular/PTSansNarrow.woff") format("woff"),
+	src: url("../fonts/")format("embedded-opentype"),
+	url("../fonts/PTSansNarrowRegular/PTSansNarrow.woff?#iefix") format("woff"),
+	url("../fonts/PTSansNarrowRegular/PTSansNarrow.svg") format('svg'),
 	url("../fonts/PTSansNarrowRegular/PTSansNarrow.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
