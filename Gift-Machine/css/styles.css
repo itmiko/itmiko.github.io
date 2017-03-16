@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	margin-top: 50px;
+	text-align: center;;
+}
+.wrapper img {
+	position: relative;
+}
+
+.button_left {
+	position: absolute;
+    top: 284px;
+	left: 465px;
+}
+.button_center {
+	position: absolute;
+    top: 284px;
+	left: 649px;
+}
+.button_right {
+	position: absolute;
+    top: 284px;
+	left: 829px;
+}
+.button_start {
+	position: absolute;
+    top: 397px;
+	left: 624px;
+}
+
+.button_left:hover,
+.button_center:hover,
+.button_right:hover,
+.button_start:hover {
+	cursor: pointer;
+}
+
